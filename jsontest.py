@@ -24,3 +24,7 @@ people = [
 
 with open('example.json', 'w') as people_json:
     json.dump(people, people_json, indent=2)
+
+with open('example.json', 'r') as people_json:
+        people = json.load(people_json)
+        print(people)

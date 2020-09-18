@@ -22,4 +22,4 @@ print(mime_type, mime_subtype)
 with open("example.png", 'rb') as file:
     message.add_attachment(file.read(), maintype=mime_type, subtype=mime_subtype, filename="example.png")
 
-mail_server = smtplib.SMTP('localhost')
+print(message)
